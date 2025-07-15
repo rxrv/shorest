@@ -53,7 +53,7 @@
 </style>
 
 <form on:submit|preventDefault={submit}>
-    <input class="field" bind:value type="text"/>
+    <input class="field" bind:value type="text" autofocus required/>
     <button class="button" type="submit">
         {#if valid}
             <ArrowIcon/>
